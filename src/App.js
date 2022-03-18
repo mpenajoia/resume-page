@@ -1,8 +1,5 @@
 import './App.css';
-
-const downloadResume = (e) => {
-  
-}
+import Resume from './doc/MarcoSilvaResume.pdf'
 
 
 function App() {
@@ -141,7 +138,7 @@ function App() {
             </p>
           </div>
         </div>
-        <button onClick={downloadResume} className='my-5 bg-yellow-400 px-4 py-3 shadow-md rounded-2xl'>Download</button>
+        <a href={Resume} download className='my-5 bg-yellow-400 px-4 py-3 shadow-md rounded-2xl font-medium text-white'>Download</a>
       </div>
     </div>
   );
