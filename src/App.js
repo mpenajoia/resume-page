@@ -1,27 +1,34 @@
 import './App.css';
 import Resume from './doc/MarcoSilvaResume.pdf'
+import { LinkedinFilled, GithubFilled, CopyFilled } from '@ant-design/icons'
 
 
 function App() {
   return (
     <div className='flex justify-center items-center'>
       <div className="flex flex-col justify-center items-center h-screen">
-        <div className='w-3/4 overflow-scroll h-screen mt-10 bg-white rounded-2xl px-12 shadow-xl'>
+        <div className='flex justify-center w-full my-5'>
+          <a href="https://www.linkedin.com/in/mpenajoia/" className="text-white mx-4 text-3xl hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+            <LinkedinFilled />
+          </a>
+          <a href="https://github.com/mpenajoia" className="text-white mx-4 text-3xl hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+            <GithubFilled />
+          </a>
+          <a href="https://mpenajoia.github.io/" className="text-white mx-4 text-3xl hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+          <CopyFilled />
+          </a>
+        </div>
+        <div className='w-3/4 overflow-scroll h-screen bg-white rounded-2xl px-12 shadow-xl'>
           {/* Header */}
           <div className='flex justify-between mt-5'>
             <div>
               <h1 className='font-extrabold text-5xl mt-2'>Marco Silva</h1>
               <h2 className='text-yellow-400 font-bold text-xl'>Front-End Engineer</h2>
-            </div>
-            <div className='flex flex-col items-end text-sm justify-end'>
-              <p>
-                {/* use an icon */}
-                <a href="#" className="text-blue-500" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="#" className="text-blue-500" target="_blank" rel="noopener noreferrer">Github</a> | <a href="#" className="text-blue-500" target="_blank" rel="noopener noreferrer">Portfolio</a>
-              </p>
               <p>
                 Los Angeles, CA 90042
               </p>
             </div>
+            
           </div>
           {/* Profile */}
           <div className='text-gray-500 text-sm my-5'>
@@ -138,7 +145,7 @@ function App() {
             </p>
           </div>
         </div>
-        <a href={Resume} download className='my-5 bg-yellow-400 px-4 py-3 shadow-md rounded-2xl font-medium text-white'>Download</a>
+        <a href={Resume} download className='my-5 bg-yellow-400 px-4 py-3 shadow-md rounded-2xl font-medium text-white hover:text-black'>Download</a>
       </div>
     </div>
   );
