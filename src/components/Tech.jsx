@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { UserContext } from '../context/UserContext';
 
 function Tech() {
+  const { info } = useContext(UserContext);
+  const tech = info.tech;
+  const techMap = tech.tech.map((tech, key) => {
+    return (
+      
+    )
+  })
+
   return (
     <div className='my-5 w-full'>
       <h2 className='text-yellow-400 font-bold text-xl'>Tech Stack</h2>

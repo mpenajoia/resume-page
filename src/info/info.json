@@ -1,8 +1,8 @@
 {
     "social": [
-        { "linkedin": "https://www.linkedin.com/in/mpenajoia/", "icon": "<LinkedinFilled />" },
-        { "github": "https://github.com/mpenajoia", "icon": "<GithubFilled />" },
-        { "portfolio": "https://mpenajoia.github.io/", "icon": "<CopyFilled />" }
+        { "name": "linkedin", "link": "https://www.linkedin.com/in/mpenajoia/", "icon": "LinkedinFilled" },
+        { "name": "github", "link": "https://github.com/mpenajoia", "icon": "GithubFilled" },
+        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "CopyFilled" }
     ],
     "header": {
         "name": "Marco Silva",
@@ -13,11 +13,26 @@
     "tech": {
         "title": "Tech Stack",
         "tech": [
-            { "Languages": ["Javascript ES6", "Python"] },
-            { "Frameworks | Libraries": ["React", "Node", "Express", "Tailwind", "Bootstrap"] },
-            { "Databases | Platforms": ["MongoDB", "PostgresSQL", "RESTful API's"] },
-            { "Tools | Markdown": ["Git", "HTML5", "CSS3", "Markup"] },
-            { "Misc": ["Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] }
+            { 
+                "type": "Languages",
+                "list": ["Javascript ES6", "Python"] 
+            },
+            { 
+                "type": "Frameworks | Libraries",
+                "list": ["React", "Node", "Express", "Tailwind", "Bootstrap"] 
+            },
+            {
+                 "type": "Databases | Platforms",
+                 "list": ["MongoDB", "PostgresSQL", "RESTful API's"] 
+                },
+            {
+                 "type": "Tools | Markdown",
+                 "list": ["Git", "HTML5", "CSS3", "Markup"] 
+                },
+            {
+                 "type": "Misc",
+                 "list": ["Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
+                }
         ]
     },
     "projects": {
@@ -27,10 +42,92 @@
                 "title": "cryptoFOMO",
                 "link": "https://mpenajoia.github.io/CryptoDreamsApp/#/",
                 "linkName": "mpenajoia.github.io/CryptoDreamsApp",
-                "features": [
+                "points": [
                     "Developed React financial web application through API for cryptocurrency past pricing for comparison to current pricing.",
                     "Applied logical-mathematical concepts to generate results for assessing gain/loss per investment."
                 ]
+            }
+        ]
+    },
+    "experience": {
+        "title": "Career Experience",
+        "employment": [
+            {
+                "company": "General Assembly",
+                "location": "Remote",
+                "position": "Software Engineering Immersive Fellow",
+                "time": "2021",
+                "description": [
+                    "Developed responsive front-end web applications through utilizing React, Javascript(ES6), CSS3, and HTML5 with RESTful API.",
+                    "Created full-stack applications and REST API’s with complete CRUD functionality leveraging React, Express, Node, and Mongo."
+                ],
+                "points": [
+                    "Utilized Agile methodologies and Git version control to steer and oversee team projects in remote settings.",
+                    "Leveraged thorough understanding of computer science concepts involving data structures, algorithms, databases, and MVC pattern design for creation of high quality and maintainable code"
+                ]
+            },
+            {
+                "company": "Moto Republic",
+                "location": "Eagle Rock, CA",
+                "position": "Technician",
+                "time": "2019 - 2021",
+                "description": [
+                    "Executed all activities relevant to documentation, such as reading technical documents for highly specialized and comprehensive tasks. Implemented simple changes to improve workplace flow for increased efficiency.",
+                    "Resolved issues preemptively before becoming detrimental from general wear and tear or stress related faults.",
+                    "Completed all relevant documentation for efficient execution of tasks."
+                ],
+                "points": [
+                    "Increased revenues by 20% through developing a high level of proficiency in output.",
+                    "Increased workplace efficiency by restructuring and redefining areas for specific purposes.",
+                    "Achieved exceptional proficiency in completing all serviceable activities on a multitude of motorcycle brands, from simplest of tasks to entire reconstruction of motors."
+                ]
+            }
+        ]
+    },
+    "additional": {
+        "title": "Additional Experience",
+        "other": [
+            {
+                "position": "First Assistant Camera",
+                "company": "Freelance",
+                "location": "New York, NY"
+            },
+            {
+                "position": "Operations Specialist",
+                "company": "SHI International Corporation",
+                "location": "Somerset, NJ"
+            }
+        ]
+    },
+    "extra": {
+        "title": "Education | Credentials | Licenses | Certifications",
+        "credentials": [
+            {
+                "degree": "Bachelor of Business",
+                "school": "New Jersey Institute of Technology",
+                "location": "Newark, NJ"
+            },
+            {
+                "degree": "General Assembly Software Engineering Certification",
+                "school": "",
+                "location": "Remote"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Languages",
+        "skill": [
+            {
+                "title": "English",
+                "misc": "Native"
+            },
+            {
+                "title": "Portuguese",
+                "misc": "Fluent"
+            },
+            {
+                "title": "Spanish",
+                "misc": "Intermediate"
             }
         ]
     }
