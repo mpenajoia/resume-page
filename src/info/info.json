@@ -1,8 +1,8 @@
 {
     "social": [
-        { "name": "linkedin", "link": "https://www.linkedin.com/in/mpenajoia/", "icon": "LinkedinFilled" },
-        { "name": "github", "link": "https://github.com/mpenajoia", "icon": "GithubFilled" },
-        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "CopyFilled" }
+        { "name": "linkedin", "link": "https://www.linkedin.com/in/mpenajoia/", "icon": "linkedin" },
+        { "name": "github", "link": "https://github.com/mpenajoia", "icon": "github" },
+        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "wrench" }
     ],
     "header": {
         "name": "Marco Silva",
