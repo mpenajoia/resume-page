@@ -7,3 +7,4 @@ export { default as Profile } from "./Profile";
 export { default as Projects } from "./Projects";
 export { default as Social } from "./Social";
 export { default as Tech } from "./Tech";
+export { default as Download } from "./Download";

@@ -7,7 +7,8 @@
     "header": {
         "name": "Marco Silva",
         "title": "Front-End Engineer",
-        "location": "Los Angeles, CA 90042"
+        "location": "Los Angeles, CA 90042",
+        "image": ""
     },
     "profile": "Highly analytical and versatile individual with hands-on experience in all facets of software engineering, including design, development, and integration of innovative software solutions. Remarkable efficiency to develop pixel-perfect applications through utilizing responsive design as well as execute full-stack projects with complete CRUD functionality on MERN applications. Proven ability to translate designs into high-quality code, while driving designs to the next level by adding value during implementation. Articulate communicator with innate ability to foster consistent collaboration with front/back-end developers and excel in a forward-thinking, innovative company as a Front End Engineer.",
     "tech": {
@@ -130,5 +131,6 @@
                 "misc": "Intermediate"
             }
         ]
-    }
+    },
+    "resume": ""
 }
