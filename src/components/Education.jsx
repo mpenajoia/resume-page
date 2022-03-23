@@ -15,7 +15,7 @@ function Education() {
 
   return (
     <div className='mb-4'>
-        <h2 className='text-yellow-400 font-bold text-xl'>{education.title}</h2>
+        <h2 className='text-yellow-400 font-bold mb-2 text-2xl md:text-xl text-center md:text-left'>{education.title}</h2>
         {certMap}
     </div> 
   )

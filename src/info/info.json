@@ -56,7 +56,7 @@
             {
                 "company": "General Assembly",
                 "location": "Remote",
-                "position": "Software Engineering Immersive Fellow",
+                "position": "Software Engineering Fellow",
                 "time": "2021",
                 "description": [
                     "Developed responsive front-end web applications through utilizing React, Javascript(ES6), CSS3, and HTML5 with RESTful API.",
@@ -101,7 +101,7 @@
         ]
     },
     "extra": {
-        "title": "Education | Credentials | Licenses | Certifications",
+        "title": "Education & Certifications",
         "credentials": [
             {
                 "degree": "Bachelor of Business",

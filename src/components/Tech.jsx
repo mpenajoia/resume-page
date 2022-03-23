@@ -21,8 +21,8 @@ function Tech() {
   })
 
   return (
-    <div className='my-5 w-full'>
-      <h2 className='text-yellow-400 font-bold text-xl'>Tech Stack</h2>
+    <div className='my-5 w-full '>
+      <h2 className='text-yellow-400 mb-2 font-bold text-2xl md:text-xl text-center md:text-left'>Tech Stack</h2>
       <div className='flex w-full '>
         <div className='flex flex-col mr-5'>
           {typeMap}
