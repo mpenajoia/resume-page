@@ -8,7 +8,7 @@ function App() {
   const [info, setInfo] = useState(Info);
 
   return (
-    <UserContext.Provider value={{ info, setInfo }}>
+    <UserContext.Provider value={{ info }}>
       <Home />
     </UserContext.Provider>
   );
