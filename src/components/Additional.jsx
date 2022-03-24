@@ -21,7 +21,7 @@ function Additional() {
 
   return (
     <div className='mb-4 '>
-      <h2 className='text-yellow-400 mb-2 font-bold text-2xl md:text-xl text-center md:text-left'>{additional.title}</h2>
+      <h2 className='text-yellow-400 mb-2 font-bold text-2xl text-center md:text-left'>{additional.title}</h2>
       {additionalMap}
     </div>
   )

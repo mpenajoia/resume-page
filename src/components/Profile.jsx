@@ -7,7 +7,7 @@ function Profile() {
 
   return (
     <div className='text-gray-500 text-sm my-5'>
-      <p>{profile}
+      <p className='text-center md:text-left'>{profile}
       </p>
     </div>
   )

@@ -6,7 +6,7 @@ function Header() {
   const { info } = useContext(UserContext);
   const header = info.header;
   return (
-    <div className='flex flex-col md:flex-row justify-between mt-2 md:mt-5'>
+    <div className='flex flex-col md:flex-row justify-between mt-5 '>
         <div className='text-center md:text-left'>
             <h1 className='font-extrabold text-5xl mt-2'>{header.name}</h1>
             <h2 className='text-yellow-400 font-bold text-2xl md:text-xl'>{header.title}</h2>

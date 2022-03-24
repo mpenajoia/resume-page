@@ -18,11 +18,11 @@ function Experience() {
     return (
       <div key={key}>
         <div className='flex flex-col  md:justify-between mt-3 mb-2'>
-          <div className='flex md:flex-row flex-col md:justify-between w-full '>
+          <div className='flex md:flex-row flex-col md:justify-between w-full text-center '>
             <h3 className='font-medium md:font-bold text-sm md:text-base '>{exp.company}, {exp.location}</h3>
             <p className='text-yellow-600 font-medium md:font-bold text-xs md:text-base md:self-end '>{exp.time}</p>
           </div>
-          <h4 className='text-yellow-600 font-medium text-lg order-first '>{exp.position}</h4>
+          <h4 className='text-yellow-600 font-medium text-lg order-first text-center md:text-left'>{exp.position}</h4>
         </div>
         <div>
           {descriptionMap}
@@ -35,7 +35,7 @@ function Experience() {
   })
   return (
     <div className='mb-4'>
-      <h2 className='text-yellow-400 font-bold text-center md:text-left text-2xl md:text-xl'>{experience.title}</h2>
+      <h2 className='text-yellow-400 font-bold text-center md:text-left text-2xl'>{experience.title}</h2>
       {experienceMap}
     </div>
   )

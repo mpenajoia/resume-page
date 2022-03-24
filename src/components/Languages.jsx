@@ -11,7 +11,7 @@ function Languages() {
   })
   return (
     <div className='mb-8'>
-      <h2 className='text-yellow-400 font-bold text-2xl md:text-xl text-center md:text-left'>{skills.title}</h2>
+      <h2 className='text-yellow-400 font-bold text-2xl text-center md:text-left'>{skills.title}</h2>
       <div className='flex text-sm md:flex-row flex-col items-center'>
         {skillsMap}
       </div>

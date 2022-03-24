@@ -32,7 +32,7 @@
                 },
             {
                  "type": "Misc",
-                 "list": ["Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
+                 "list": ["Photoshop", "Adobe Suite", "Google Suite", "Zoom"] 
                 }
         ]
     },
@@ -132,5 +132,5 @@
             }
         ]
     },
-    "resume": ""
+    "resume": "https://www.penajoia.com/resume/MarcoSilvaResumeFE.pdf"
 }
