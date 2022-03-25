@@ -1,7 +1,7 @@
 # Online React Resume
 ![Mobile Example](/rd-media/resumeexample.jpg)
 
-### [See Demo](/rd-media/resumeexample.jpg)
+### [See Demo](https://penajoia.com/resume)
 
 ## V1
 In an attempt to make a React page online version of my professional Resume I threw this project together. It is desktop and mobile responsive. In this current iteration it is fairly bare bones but easy to adapt for yourself. To do that follow these steps:
