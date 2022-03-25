@@ -1,6 +1,6 @@
 {
   "name": "resume-page",
-  "homepage":"http://penajoia.com/resume/",
+  "homepage":"https://penajoia.com/resume/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

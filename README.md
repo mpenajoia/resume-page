@@ -10,7 +10,7 @@ Create the directory locally that you want to use and clone this down:
 Install the dependencies:
 `npm i`
 
-Open these files in your favorite code editor / IDE; I'm using VS Code.
+Open the files in your favorite code editor / IDE; I'm using VS Code.
 
 Navigate to `src/info` and open the `info.json` file. 
 Screenshot here
