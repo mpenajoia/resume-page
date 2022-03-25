@@ -23,6 +23,8 @@ Navigate to `src/info` and open the `info.json` file.
 This is just a simple object in a JSON file. Per the screenshot above, so long as you leave the parent keys that are purple (i.e. "social", "header", "tech") the way they are written you won't need to adjust anything inside of the React components. 
 That said, replace the other information listed with your own resume criteria. 
 
+Anywhere there is an array you can add more element to it or remove them if need be. Follow the formatting to avoid breaking the functions that live in the components.
+
 **The last key-value pair in your JSON file references a link to your resume. You can delete my link and just leave the quotes blank (i.e. `"resume": "" `). More info for uploading your resume file later is down below.
 ![Resume Link](/rd-media/resumelink.png)
 
