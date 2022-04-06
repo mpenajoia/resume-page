@@ -1,8 +1,8 @@
 {
     "social": [
+        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "arrowCircleLeft" },
         { "name": "linkedin", "link": "https://www.linkedin.com/in/mpenajoia/", "icon": "linkedin" },
-        { "name": "github", "link": "https://github.com/mpenajoia", "icon": "github" },
-        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "wrench" }
+        { "name": "github", "link": "https://github.com/mpenajoia", "icon": "github" }
     ],
     "header": {
         "name": "Marco Silva",

@@ -9,7 +9,7 @@ function Social() {
   const social = info.social;
   const socialMap = social.map((social, key) => {  
     return (
-      <a key={key} href={social.link} className="text-white mx-4 text-3xl hover:text-yellow-400" target="_blank" rel="noopener noreferrer">
+      <a key={key} href={social.link} className="text-yellow-400 mx-4 text-3xl hover:text-black" target="_blank" rel="noopener noreferrer">
         <Icon icon={icons[social.icon]} size={32} />
       </a>
     )
