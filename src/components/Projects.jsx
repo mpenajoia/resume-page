@@ -13,7 +13,10 @@ function Projects() {
     return (
       <div  key={key}>
         <div className='flex md:flex-row flex-col'>  
-          <p className='font-bold text-md text-center md:text-left'><a className='text-blue-500 self-center' href={app.link} target='_blank' rel="noopener noreferrer">{app.title}</a></p>
+          <p className='font-bold text-md text-center md:text-left'>
+            <a className='text-blue-500 self-center' href={app.link} target='_blank' rel="noopener noreferrer">{app.title}</a>&nbsp;|&nbsp; 
+            <a className='text-blue-500 self-center' href={app.github} target='_blank' rel="noopener noreferrer">Github</a>
+          </p>
           {/* <span className='hidden md:inline mx-2'>|</span> */}
           
         </div>

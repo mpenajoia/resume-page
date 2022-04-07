@@ -1,13 +1,13 @@
 {
     "social": [
-        { "name": "portfolio", "link": "https://mpenajoia.github.io/", "icon": "arrowCircleLeft" },
+        { "name": "portfolio", "link": "https://penajoia.com/", "icon": "arrowCircleLeft" },
         { "name": "linkedin", "link": "https://www.linkedin.com/in/mpenajoia/", "icon": "linkedin" },
         { "name": "github", "link": "https://github.com/mpenajoia", "icon": "github" }
     ],
     "header": {
         "name": "Marco Silva",
         "title": "Front-End Engineer",
-        "location": "Los Angeles, CA 90042",
+        "location": "Los Angeles, CA",
         "image": ""
     },
     "profile": "Highly analytical and versatile individual with hands-on experience in all facets of software engineering, including design, development, and integration of innovative software solutions. Remarkable efficiency to develop pixel-perfect applications through utilizing responsive design as well as execute full-stack projects with complete CRUD functionality on MERN applications. Proven ability to translate designs into high-quality code, while driving designs to the next level by adding value during implementation. Articulate communicator with innate ability to foster consistent collaboration with front/back-end developers and excel in a forward-thinking, innovative company as a Front End Engineer.",
@@ -40,9 +40,27 @@
         "title": "Applications",
         "apps": [
             {
+                "title": "Portfolio",
+                "link": "https://penajoia.com/",
+                "github": "https://github.com/mpenajoia/portfolio",
+                "points": [
+                    "Mobile responsive React app portfolio using TailwindCSS.",
+                    "Local JSON file acts as an API making updating the content as easy as updating one file as opposed to each component."
+                ]
+            },
+            {
+                "title": "Resume Builder",
+                "link": "https://penajoia.com/resume",
+                "github": "https://github.com/mpenajoia/resume-page",
+                "points": [
+                    "Mobile responsive creative online web version of my professional resume styled using TailwindCSS.",
+                    "React app sourcing all data from a local JSON file, making it extremely useful for other devs to replicate their own deployable version."
+                ]
+            },
+            {
                 "title": "cryptoFOMO",
                 "link": "https://mpenajoia.github.io/CryptoDreamsApp/#/",
-                "linkName": "mpenajoia.github.io/CryptoDreamsApp",
+                "github": "https://github.com/mpenajoia/CryptoDreamsApp",
                 "points": [
                     "Developed React financial web application through API for cryptocurrency past pricing for comparison to current pricing.",
                     "Applied logical-mathematical concepts to generate results for assessing gain/loss per investment."
