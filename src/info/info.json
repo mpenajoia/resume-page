@@ -62,8 +62,9 @@
                 "link": "https://penajoia.com/cryptoFOMO/",
                 "github": "https://github.com/mpenajoia/cryptofomo",
                 "points": [
-                    "Developed React financial web application through API for cryptocurrency past pricing for comparison to current pricing.",
-                    "Applied logical-mathematical concepts to generate results for assessing gain/loss per investment."
+                    "Developed mobile first React financial web application styled with TailwindCSS.",
+                    "Cryptocurrency data, images, and pricing sourced through CoinGecko's public RESTful API.",
+                    "Applied logic based algorithms to calculate gains/losses per user inputted investment amount."
                 ]
             }
         ]
