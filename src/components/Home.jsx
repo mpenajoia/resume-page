@@ -7,15 +7,15 @@ function Home() {
     <div className='flex justify-center items-center'>
         <div className="flex flex-col justify-center items-center h-screen">
             <Social />
-            <div className='w-full md:w-3/4 overflow-y-auto no-scrollbar h-screen bg-white md:rounded-2xl px-5 md:px-12 '>
+            <div className='max-w-[900px] w-full overflow-y-auto no-scrollbar h-screen bg-white md:rounded-2xl px-5 md:px-12 '>
               <Header />
               <Profile />
-              <Tech />
               <Projects />
+              <Tech />
               <Experience />
-              <Additional /> 
+              {/* <Additional />  */}
               <Education />
-              <Languages />
+              {/* <Languages /> */}
             </div>
             <div className='my-7 hidden md:inline'>
               <Download />

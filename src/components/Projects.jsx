@@ -7,13 +7,13 @@ function Projects() {
   const projectsMap = projects.apps.map((app, key) => {
     const projPointsMap = app.points.map((point, key) => {
       return (
-        <li key={key} className='text-sm'>{point}</li>
+        <li key={key} className='text-lg'>{point}</li>
       )
     })
     return (
       <div  key={key}>
         <div className='flex md:flex-row flex-col'>  
-          <p className='font-bold text-md text-center md:text-left'>
+          <p className='font-bold text-lg text-center md:text-left'>
             <a className='text-blue-500 self-center' href={app.link} target='_blank' rel="noopener noreferrer">{app.title}</a>&nbsp;|&nbsp; 
             <a className='text-blue-500 self-center' href={app.github} target='_blank' rel="noopener noreferrer">Github</a>
           </p>

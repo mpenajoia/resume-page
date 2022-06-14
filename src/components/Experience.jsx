@@ -7,22 +7,22 @@ function Experience() {
   const experienceMap = experience.employment.map((exp, key) => {
     const descriptionMap = exp.description.map((desc, key) => {
       return (
-        <p key={key} className='text-sm'>{desc}</p>
+        <p key={key} className='text-lg'>{desc}</p>
       )
     });
     const bulletMap = exp.points.map((point, key) => {
       return (
-        <li key={key} className='text-sm'>{point}</li>
+        <li key={key} className='text-lg'>{point}</li>
       )
     })
     return (
       <div key={key}>
-        <div className='flex flex-col  md:justify-between mt-3 mb-2'>
+        <div className='flex flex-col md:justify-between mt-3 mb-2'>
           <div className='flex md:flex-row flex-col md:justify-between w-full text-center '>
-            <h3 className='font-medium md:font-bold text-sm md:text-base '>{exp.company}, {exp.location}</h3>
-            <p className='text-yellow-600 font-medium md:font-bold text-xs md:text-base md:self-end '>{exp.time}</p>
+            <h3 className='font-medium md:font-bold md:text-lg '>{exp.company}, {exp.location}</h3>
+            <p className='text-yellow-600 font-medium md:font-bold text-lg md:self-end '>{exp.time}</p>
           </div>
-          <h4 className='text-yellow-600 font-medium text-lg order-first text-center md:text-left'>{exp.position}</h4>
+          <h4 className='text-yellow-600 font-medium text-xl order-first text-center md:text-left'>{exp.position}</h4>
         </div>
         <div>
           {descriptionMap}
