@@ -16,7 +16,7 @@
         "tech": [ 
             { 
                 "type": "Frontend",
-                "list": ["Javascript ES6", "React (Hooks)", "Redux", "HTML/CSS", "Tailwind"] 
+                "list": ["Javascript ES6", "React (Hooks)", "React Native", "Redux", "HTML", "CSS", "Tailwind"] 
             },
             { 
                 "type": "Backend",
@@ -24,11 +24,11 @@
             },
             {
                  "type": "Tools",
-                 "list": ["Git", "Github", "Wordpress", "Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
+                 "list": ["Webpack", "Git", "Github", "REST API", "JSON", "AJAX", "Jira", "Figma"] 
                 },
             {
                  "type": "Other",
-                 "list": ["REST API", "JSON", "AJAX"] 
+                 "list": [ "Wordpress", "Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
                 }
         ]
     },
@@ -69,6 +69,29 @@
         "title": "Career Experience",
         "employment": [
             {
+                "company": "EarlyBird",
+                "location": "Remote",
+                "position": "Front End Intern",
+                "time": "06/2022 - Present",
+                "description": [
+                    
+                ],
+                "points": [
+                    "Leveraging React Native to implement brand refresh/redesign across Android and IOS application."
+                ]
+            },{
+                "company": "Tech Fleet",
+                "location": "Remote",
+                "position": "Developer Apprentice",
+                "time": "05/2022 - Present",
+                "description": [
+                    
+                ],
+                "points": [
+                    "Building Cryptocurrency wallet Chrome Extension for the Kadena Blockchain.",
+                    "Pixel perfect implementation of UX/UI team designs into application."
+                ]
+            },{
                 "company": "General Assembly",
                 "location": "Remote",
                 "position": "Software Engineering Fellow",
