@@ -6,7 +6,7 @@
     ],
     "header": {
         "name": "Marco Silva",
-        "title": "Front-End Engineer",
+        "title": "Front-End Developer",
         "location": "Los Angeles, CA",
         "image": ""
     },
@@ -20,7 +20,7 @@
             },
             { 
                 "type": "Backend",
-                "list": ["Node JS", "Express JS", "MongoDB", "Postgres"] 
+                "list": ["Node JS", "Express JS", "MongoDB", "PostgreSQL"] 
             },
             {
                  "type": "Tools",
@@ -69,6 +69,19 @@
         "title": "Career Experience",
         "employment": [
             {
+                "company": "Tech Fleet",
+                "location": "Remote",
+                "position": "Lead Developer",
+                "time": "08/2022 - Present",
+                "description": [
+                    
+                ],
+                "points": [
+                    "Selected group of apprentices after leading a hiring round of interviews with aspiring applicants",
+                    "Utilizing Agile methodologies and Git version control to steer and oversee team in remote environment",
+                    "Applying blockchain and cryptocurrency knowledge to educate other team leads and apprentices on scope of work"
+                ]
+            },{
                 "company": "EarlyBird",
                 "location": "Remote",
                 "position": "Front End Intern",
@@ -77,19 +90,21 @@
                     
                 ],
                 "points": [
-                    "Leveraging React Native to implement brand refresh/redesign across Android and IOS application."
+                    "Leveraging React Native to implement brand refresh/redesign across Android and IOS application",
+                    "Collaborating with Design and Product teams asynchronously via Jira before deploying code to production",
+                    "Taking lead on design and copy decisions when applicable based on team vision"
                 ]
             },{
                 "company": "Tech Fleet",
                 "location": "Remote",
                 "position": "Developer Apprentice",
-                "time": "05/2022 - Present",
+                "time": "05/2022 - 08/2022",
                 "description": [
                     
                 ],
                 "points": [
-                    "Building Cryptocurrency wallet Chrome Extension for the Kadena Blockchain.",
-                    "Pixel perfect implementation of UX/UI team designs into application."
+                    "Building Cryptocurrency wallet Chrome Extension for the Kadena Blockchain",
+                    "Pixel perfect implementation of UX/UI team designs into application"
                 ]
             },{
                 "company": "General Assembly",
@@ -100,10 +115,9 @@
                     
                 ],
                 "points": [
-                    "Developed responsive front-end web applications utilizing React, Javascript, HTML5, and CSS3.",
-                    "Created full-stack applications and REST API with complete CRUD functionality leveraging React, Express, Node and Mongo.",
-                    "Utilized Agile methodologies and Git version control to steer and oversee team projects in remote settings.",
-                    "Leveraged thorough understanding of computer science concepts involving data structures, algorithms, databases, and MVC pattern design for creation of high quality and maintainable code."
+                    "Developed responsive front-end web applications utilizing React, Javascript, HTML5, and CSS3",
+                    "Created full-stack applications and REST API with complete CRUD functionality leveraging React, Express, Node and Mongo",
+                    "Leveraged thorough understanding of computer science concepts involving data structures, algorithms, databases, and MVC pattern design for creation of high quality and maintainable code"
                 ]
             },
             {
@@ -115,8 +129,8 @@
                     
                 ],
                 "points": [
-                    "Implemented systems thinking when testing and resolving mechanical, electrical and software related faults.",
-                    "Achieved exceptional proficiency in completing all serviceable activities on a multitude of motorcycle brands."
+                    "Implemented systems thinking when testing and resolving mechanical, electrical and software related faults",
+                    "Achieved exceptional proficiency in completing all serviceable tasks on a multitude of motorcycle brands"
                 ]
             },
             {
@@ -128,8 +142,8 @@
                     
                 ],
                 "points": [
-                    "Managed camera department on domestic and international contracts with teams ranging from 5 to 20 teammates.",
-                    "Influenced equipment packages for optimal outcomes per project requirements and budget."
+                    "Managed camera department on domestic and international contracts with teams ranging from 5 to 20 teammates",
+                    "Influenced equipment packages for optimal outcomes per project requirements and budget"
                 ]
             },
             {
@@ -141,8 +155,8 @@
                     
                 ],
                 "points": [
-                    "Promoted within one year due to a proven track record.",
-                    "Produced results under expedited deadlines while adapting quickly to process changes."
+                    "Promoted within one year due to a proven track record",
+                    "Produced results under expedited deadlines while adapting quickly to process changes"
                 ]
             }
         ]
