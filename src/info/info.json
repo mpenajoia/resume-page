@@ -6,29 +6,37 @@
     ],
     "header": {
         "name": "Marco Silva",
-        "title": "Front-End Developer",
+        "title": "Software Engineer",
         "location": "Los Angeles, CA",
         "image": ""
     },
-    "profile": "Highly analytical and versatile individual with hands-on experience in all facets of software engineering, including design, development, and integration of innovative software solutions. Remarkable efficiency in developing pixel-perfect applications utilizing responsive design and executing full-stack projects with complete CRUD functionality on MERN applications. Proven ability to adapt quickly in building within teams to achieve outcomes that are aligned with organizational goals.",
+    "profile": "A results-oriented, adaptive, and multi-faceted Software Engineer with a record of success designing, building, and configuring applications to meet business processes and client requirements. Growth-focused thought leader with experience directing and developing effective teams by translating technical requirements, supporting all facets of software development life cycle, and guiding junior team members. Exceptionally dedicated professional with keen interpersonal, communication, and organizational skills.",
     "tech": {
         "title": "Tech Stack",
         "tech": [ 
             { 
                 "type": "Frontend",
-                "list": ["Javascript ES6", "React (Hooks)", "React Native", "Redux", "HTML", "CSS", "Tailwind"] 
+                "list": ["Javascript", "React", "TypeScript", "HTML", "CSS", "Tailwind"] 
             },
             { 
                 "type": "Backend",
-                "list": ["Node JS", "Express JS", "MongoDB", "PostgreSQL"] 
+                "list": ["Node JS", "Python", "PHP", "SQLite", "REST API"] 
+            },
+            { 
+                "type": "AWS",
+                "list": ["Lambda", "API Gateway", "WAF", "Secrets Manager", "IAM", "CloudWatch", "S3", "EC2"] 
             },
             {
                  "type": "Tools",
-                 "list": ["Webpack", "Git", "Github", "REST API", "JSON", "AJAX", "Jira", "Figma"] 
+                 "list": ["Webpack", "Git", "Github", "Jenkins", "Jira", "Figma", "Notion", "Monday"] 
                 },
             {
                  "type": "Other",
-                 "list": [ "Wordpress", "Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
+                 "list": [ "Postman", "Photoshop", "Adobe Creative Suite", "Google Suite", "Zoom"] 
+                },
+            {
+                "type": "Languages",
+                "list": [ "English", "Portuguese", "Spanish"] 
                 }
         ]
     },
@@ -66,58 +74,50 @@
         ]
     },
     "experience": {
-        "title": "Career Experience",
+        "title": "Experience and Impact",
         "employment": [
             {
-                "company": "Tech Fleet",
+                "company": "JW Player",
                 "location": "Remote",
-                "position": "Lead Developer",
-                "time": "08/2022 - Present",
+                "position": "Software Engineer",
+                "time": "10/2022 - Present",
                 "description": [
                     
                 ],
                 "points": [
-                    "Selected group of apprentices after leading a hiring round of interviews with aspiring applicants",
-                    "Utilizing Agile methodologies and Git version control to steer and oversee team in remote environment",
-                    "Applying blockchain and cryptocurrency knowledge to educate other team leads and apprentices on scope of work"
+                    "Leverage cross-functional collaboration with Solutions Engineers, Solutions Architects, and Project Managers to execute scalable and high-performance software solutions to meet global client base requirements; utilize JW platform and APIs for bespoke integrations and specialized plugins",
+                    "Conduct test cases, design the architecture, write the code, and perform debugging to ensure applications are scalable and maintainable; craft adaptable software via frontend and backend tech reinforced by AWS cloud infrastructure",
+                    "Investigate the prospective labor expenses and technical project scope to support Professional Services team operations; contribute directly to advancing JW SASS product across every phase of the software development life cycle",
+                    "Produce project specifications and draft timeline to achieve operational feasibility; devise software components that fit functionally in system architecture",
+                    "Document and maintain discrepancies in software functionality; troubleshoot, debug, and upgrade existing systems to adapt to changes in project specifications"
+                ]
+            },
+            {
+                "company": "Tech Fleet",
+                "location": "Remote",
+                "position": "Lead Developer",
+                "time": "08/2022 - 11/2022",
+                "description": [
+                    
+                ],
+                "points": [
+                    "Integrated Agile methodologies, Git Version Control, and other project management strategies to orchestrate productive team operations; reached project milestones on a consistent basis",
+                    "Scheduled and led interviews to verify and recruit qualified candidates; provided mentoring as required on latest blockchain and cryptocurrency expertise",
+                    "Guided and mentored development teams to guarantee efficient code development and adherence to coding standards",
+                    "Applied knowledge in software architecture and development methodologies to devise a maintainable and scalable application"
                 ]
             },{
                 "company": "EarlyBird",
                 "location": "Remote",
                 "position": "Front End Intern",
-                "time": "06/2022 - Present",
+                "time": "06/2022 - 08/2022",
                 "description": [
                     
                 ],
                 "points": [
-                    "Leveraging React Native to implement brand refresh/redesign across Android and IOS application",
-                    "Collaborating with Design and Product teams asynchronously via Jira before deploying code to production",
-                    "Taking lead on design and copy decisions when applicable based on team vision"
-                ]
-            },{
-                "company": "Tech Fleet",
-                "location": "Remote",
-                "position": "Developer Apprentice",
-                "time": "05/2022 - 08/2022",
-                "description": [
-                    
-                ],
-                "points": [
-                    "Building Cryptocurrency wallet Chrome Extension for the Kadena Blockchain",
-                    "Pixel perfect implementation of UX/UI team designs into application"
-                ]
-            },{
-                "company": "General Assembly",
-                "location": "Remote",
-                "position": "Software Engineering Fellow",
-                "time": "09/2021 - 12/2021",
-                "description": [
-                    
-                ],
-                "points": [
-                    "Developed responsive front-end web applications utilizing React, Javascript, HTML5, and CSS3",
-                    "Created full-stack applications and REST API with complete CRUD functionality leveraging React, Express, Node and Mongo",
-                    "Leveraged thorough understanding of computer science concepts involving data structures, algorithms, databases, and MVC pattern design for creation of high quality and maintainable code"
+                    "Partnered with Product and Design teams on separate project timelines via Jira to write, test, debug, and deploy code suitable for production phase",
+                    "Utilized React Native to incorporate brand awareness strategies, including a brand design digital overhaul on iOS and Android applications",
+                    "Operated as Design Lead for executing copy and design decisions that were in alignment with overall team objective and company vision"
                 ]
             },
             {
@@ -129,15 +129,16 @@
                     
                 ],
                 "points": [
-                    "Implemented systems thinking when testing and resolving mechanical, electrical and software related faults",
-                    "Achieved exceptional proficiency in completing all serviceable tasks on a multitude of motorcycle brands"
+                    "Delivered on all technical document assessment tasks; incorporated process streamlining to enhance overall workflow, resulting in heightened on-time productivity",
+                    "Identified and overcame obstacles proactively to prevent breakdown from mechanical faults; drove a 20% boost by improving output capacity",
+                    "Overhauled areas selected for specialization to advance workplace efficiency; completed all serviceable tasks from minor maintenance repairs to motor reconstruction for a range of motorcycle brands"
                 ]
             },
             {
                 "company": "Freelance",
                 "location": "NYC",
                 "position": "First Assistant Camera",
-                "time": "01/2013 - 12/2018",
+                "time": "01/2013 - 12/2015",
                 "description": [
                     
                 ],
@@ -208,5 +209,5 @@
             }
         ]
     },
-    "resume": "https://www.penajoia.com/resume/MarcoSilvaResumeFE.pdf"
+    "resume": "https://docs.google.com/document/d/1MXnyv1YNhR9ctm9yEPJ2Q31_4M7Sh-T8Oxl96XVw6zk/edit?usp=sharing"
 }
